@@ -1,38 +1,75 @@
-body
-{
-    background-image:url("bg.jpg");
+#main {
+   
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: rgba(255, 255, 255, 0.8);
+    
     
 }
-.foot
-{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: rgb(255, 255, 255);
-    padding:20px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-.foot >p >a
-{
-    color: white;
-}
-.hi
-{
-    font-size:30px;
-    background-color:rgb(34,34,34);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-.navbar-nav > li{
-    margin-left:30px;
-    margin-right:30px;
+
+body { 
+    background: url(https://public-media.si-cdn.com/filer/54/78/5478d7cf-4dc1-45ee-998b-ca095579ec00/telemedicine.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
-  @media (min-width: 992px){
-    .navbar li {
-        margin-left : 1em;
-        margin-right : 1em;
-    }
+   html,body {
+    margin: 0;
+    height: 100%;
 }
+div.gallery {
+  border: 2px solid #777;
+}
+
+div.gallery:hover {
+    border: 3px solid rgb(0, 0, 0);
+}
+
+div.gallery img {
+  width: 100%;
+  height: 155px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: rgb(132, 211, 218);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+   
+  
+
+
